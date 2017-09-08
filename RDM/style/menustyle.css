@@ -1,0 +1,102 @@
+
+td th {
+	padding: 3%;
+    border: 1px solid pink;
+    border-bottom: 0;
+    border-top: 0;
+}
+
+.menu-box{
+	border: 1px solid pink;
+	padding-left: 8%;
+	border-right: 0;
+
+}
+
+#home:hover, #more:hover, #rti:hover{
+
+	color: white;
+    background: brown;
+}
+
+#rti{
+    color: black;
+}
+
+.menu-container-main{
+    background: url(http://agcsodisha.nic.in/assets/images/footer-top-bg.jpg);
+}
+
+.menu-container{
+	padding-left: 30%;
+    padding-top: 7px;
+    padding-bottom: 18px;
+    width: 100%;
+    padding-right: 28%;
+    height: 60px;
+}
+
+.fb, .wp, .contus, .help, .va{
+	padding: 16px;
+    padding-bottom: 0px;
+    border-left: 0;
+    color: #FFF;
+    font-weight: bold;
+    border: 0px;
+}
+
+.va{
+	border-right: 0;
+}
+
+.cmf-container{
+	background-image: url(http://164.100.59.15/sites/all/modules/customs/cmf_content/assets/images/footer-bottom-bg.png);
+    background-repeat: repeat;
+    background-color: #333;
+    padding: 0px 0px;
+    color: #fff;
+    position: relative;
+    text-align: center;
+}
+
+#cmf-logo{
+	border-left: 0px;
+	border-right-color: black;
+}
+#lang{
+	border-right: 0px;
+}
+#copyright{
+	width: 39%;
+	border-right-color: black;
+}
+
+#cm{
+	text-decoration-color: #FFF;
+	text-decoration: none;
+	color: #FFF;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
